@@ -1,19 +1,18 @@
-
 export default function getListStudents() {
   const guillaume = {
-    'id': 1,
-    'firstName': 'Guillaume',
-    'location': 'San Francisco',
-  }
+    id: 1,
+    firstName: 'Guillaume',
+    location: 'San Francisco',
+  };
   const james = {
-    'id': 2,
-    'firstName': 'James',
-    'location': 'Columbia',
-  }
+    id: 2,
+    firstName: 'James',
+    location: 'Columbia',
+  };
   const serena = {
-    'id': 3,
-    'firstName': 'Serena',
-    'location': 'San Francisco',
-  }
-  return [guillaume, james, serena]
+    id: 3,
+    firstName: 'Serena',
+    location: 'San Francisco',
+  };
+  return [guillaume, james, serena];
 }
